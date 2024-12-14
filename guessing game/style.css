@@ -1,0 +1,53 @@
+/* General Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom right, #6a11cb, #2575fc);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Game Container */
+.game-container {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px 40px;
+    text-align: center;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    width: 400px;
+    box-sizing: border-box;
+}
+
+/* Heading */
+.game-container h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ffdf6c;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Description */
+.game-container p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #ffffff;
+}
+
+/* Highlight for "quit" */
+.game-container strong {
+    color: #ff7675;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    .game-container {
+        width: 90%;
+        padding: 15px 20px;
+    }
+}
